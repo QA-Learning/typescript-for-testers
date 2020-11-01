@@ -19,5 +19,8 @@
   "homepage": "https://github.com/QA-Learning/typescript-for-testers#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "typescript": "^4.0.5"
   }
 }
