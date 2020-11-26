@@ -1,0 +1,10 @@
+"use strict";
+const storedData = null;
+const result1 = storedData || 'defaultvalue';
+console.log('====================================');
+console.log(result1);
+console.log('====================================');
+const result2 = storedData !== null && storedData !== void 0 ? storedData : 'defaultvalue';
+console.log('================NULLISH COALESCING===============');
+console.log(result2);
+console.log('=================================================');
